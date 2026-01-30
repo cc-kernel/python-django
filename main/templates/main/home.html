@@ -1,15 +1,13 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>MyWeb</title>
-    <style>
-        body { font-family: 'Courier New', Courier, monospace, sans-serif; text-align: center; margin-top: 50px; }
-        h1 { color: #2c3e50; }
-    </style>
+    <link rel="stylesheet" href="{% static 'main/style.css' %}">
 </head>
 <body>
     <h1>Welcome to MyWeb!</h1>
-    <p>This is your first Django website with a real HTML page.</p>
+    <p>This is a styled Django page!</p>
 </body>
 </html>
