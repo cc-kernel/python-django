@@ -12,5 +12,5 @@ pathspec==1.0.4
 platformdirs==4.5.1
 pylint==4.0.4
 pytokens==0.4.1
-sqlparse==0.5.5
+sqlparse==0.6.0
 tomlkit==0.14.0
